@@ -29,4 +29,4 @@ class Monad:
 ```
 The method fmap() already exists in Python for Iterables and is known as X.map(). The next one, apply(), is not required in our case and hence, discussion can be skipped.
 
-The central piece of a Monand, where all the magic happens, is the last one: the famous bind() method. We skip here the discussion of the related monadic laws and just restrict ourself 
+The central piece of a Monand, where all the magic happens, is the last one: the famous bind() method. We skip here the discussion of the related monadic laws and just restrict ourself...tbd ;-)
