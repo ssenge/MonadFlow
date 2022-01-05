@@ -1,0 +1,30 @@
+configs:
+  - TST:
+      engine: ada
+      max_tokens: 128
+      temperature: 0.0
+      top_p: 1.0
+      n: 1
+      stream: False
+      logprobs: Null
+      echo: False
+      stop: ['####', '----', '————', '____']
+      presence_penalty: 0.0
+      frequency_penalty: 0.0
+      best_of: 1
+      logit_bias: Null
+
+  - PROD:
+      engine: instruct-davinci-beta
+      max_tokens: 256
+      temperature: 0.3
+      top_p: 1.0
+      n: 5
+      stream: False
+      logprobs: Null
+      echo: False
+      stop: ['####', '----', '————', '____']
+      presence_penalty: 0.0
+      frequency_penalty: 0.0
+      best_of: 5
+      logit_bias: Null
